@@ -20,7 +20,7 @@
 		],
         "dfp": {
             "name": "AVR-Dx",
-            "semverRange": "1.4.75"
+            "semverRange": "1.6.88"
         },
         "configurator": {
             "name": "MCC",
@@ -38,6 +38,9 @@
         },
         "author": "Microchip",
         "subcategories": [
+            [
+                "peripherals", "USART"
+            ]
         ],
         "peripherals": [ "USART"
         ],
