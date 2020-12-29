@@ -20,12 +20,13 @@
     OF FEES, IF ANY, THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS 
     SOFTWARE.
 */
-#define MAX_COMMAND_LEN 8
 
 #include <avr/io.h>
 #include <stdio.h>
 #include <string.h>
 #include "mcc_generated_files/mcc.h"
+
+#define MAX_COMMAND_LEN 8
 
 void executeCommand(char *command);
 void USART1_sendString(const char *str);
@@ -44,7 +45,7 @@ void executeCommand(char *command)
     } 
     else 
     {
-        USART1_sendString("Incorrect command.\r\n");
+        USART1_sendString("Type ON/OFF to control the LED.\r\n");
     }
 }
 
@@ -70,6 +71,8 @@ int main(void)
     SYSTEM_Initialize();
 
     /* Replace with your application code */
+    USART1_sendString("Type ON/OFF to control the LED.\r\n");
+
     while (1)
     {
         c = USART1_Read();

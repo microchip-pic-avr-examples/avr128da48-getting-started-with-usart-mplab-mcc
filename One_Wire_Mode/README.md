@@ -75,11 +75,11 @@ USART1 is configured for 9600 baud, with receive and transmit enabled, loop back
 
 7. Enable two breakpoints, as presented in the image below, and click **Continue**.
 
-<br><img src="images/breakpoints.png" height="300">
+<br><img src="images/breakpoints.png" height="200">
 
 Demo:
 
-<br><img src="images/demo.PNG" width="500">
+<br><img src="images/demo.PNG" width="650">
 
 The picture shows the device sending the string "Microchip.\r\n".
 

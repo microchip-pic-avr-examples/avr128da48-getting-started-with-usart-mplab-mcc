@@ -53,7 +53,7 @@ void PIN_MANAGER_Initialize()
     /* OUT Registers Initialization */
     PORTA.OUT = 0x00;
     PORTB.OUT = 0x00;
-    PORTC.OUT = 0x00;
+    PORTC.OUT = 0x01;
     PORTD.OUT = 0x00;
     PORTE.OUT = 0x00;
     PORTF.OUT = 0x00;

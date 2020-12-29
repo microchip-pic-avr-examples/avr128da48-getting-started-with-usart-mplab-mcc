@@ -72,7 +72,7 @@ USART1 is configured for 9600 baud, transmit enabled, 8N1.
 
 Demo:
 
-<br><img src="images/demo.PNG" width="500">
+<br><img src="images/demo.PNG" width="700">
 
 In the above figure, the string sent from the microcontroller can be seen in the Terminal software.
 

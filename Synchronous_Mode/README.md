@@ -88,8 +88,8 @@ Demo:
 For testing the example, two breakpoints set in the two ISRs are required. Each breakpoint will be triggered in the code.
 When one USART instance sends a character, the other receives it and enters its corresponding ISR. The same thing happens when the other instance transmits. 
 Checking the two ISRs with breakpoints (which means that the code reaches them) implies that both the transmit function of the USART instance works as well as the receive function of the other USART instance.
-<br><img src="images/RX0.PNG" height="300">
-<br><img src="images/RX1.PNG" height="300">
+<br><img src="images/RX0.PNG" height="250">
+<br><img src="images/RX1.PNG" height="250">
 
 ## Summary
 

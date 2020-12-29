@@ -7,7 +7,9 @@
 This project shows how to use the USART to implement a command-line interface. This way, the microcontroller can receive control commands via the USART. It is convenient to use the line terminator as a command delimiter, so for this use case the USART will read full lines. The application can decode:
 - **"ON"** command which turns on an LED and replies with **"OK, LED ON."**
 - **"OFF"** command which turns off an LED and replies with **"OK, LED OFF."**
-- for anything else it replies with **"Incorrect command."**
+- for anything else it replies with **"Type ON/OFF to control the LED."**
+
+Additionally, after system initialization, the application will send the string: **"Type ON/OFF to control the LED."**.
 
 ## Related Documentation
 
@@ -44,6 +46,8 @@ USART1 is configured for 9600 baud, transmit and receive enabled, 8N1.
 
 Pin PC6 is named LED and configured as digital output.
 
+Pin PC0 (TX) is configured as digital output and starts high.
+
 |    Pin    | Configuration  |
 | :-------: | :------------: |
 | PC0 (TX)  | Digital output |
@@ -78,9 +82,9 @@ Pin PC6 is named LED and configured as digital output.
 
 Demo:
 
-<br><img src="images/demo.png" width="500">
+<br><img src="images/demo.png" width="600">
 
-In the above figure, the two commands are sent and the reply of the microcontroller can be seen. Additionally, an incorrect command is sent to show the way the microcontroller responds. 
+In the above figure, the message sent during initialization, the two commands and the response from the microcontroller can be seen. Additionally, an incorrect command is sent to show the way the microcontroller responds. 
  
 
 ## Summary
