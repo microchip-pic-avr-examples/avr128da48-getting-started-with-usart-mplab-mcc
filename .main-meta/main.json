@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128da48-getting-started-with-usart-mplab-mcc",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "Getting Started with USART (Universal Synchronous and Asynchronous Receiver and Trasmitter)",
         "projectName": "avr128da48-getting-started-with-usart-mplab-mcc",
         "shortDescription": "This repository contains the MCC generated source code examples described in TB3216-Getting Started with Universal Synchronous and Asynchronous Receiver and Transmitter (USART)",
