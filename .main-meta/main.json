@@ -39,7 +39,8 @@
         "author": "Microchip",
         "subcategories": [
             [
-                "Peripherals"
+                "Peripherals",
+                "USART"
             ]
         ],
         "peripherals": [ "USART"
