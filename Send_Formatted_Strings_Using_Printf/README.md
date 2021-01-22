@@ -1,5 +1,3 @@
-<!-- Please do not change this logo with link -->
-
 [![MCHP](../images/microchip.png)](https://www.microchip.com)
 
 # Send formatted strings using `printf`
@@ -11,17 +9,17 @@ This repo contains an example that sends the "Counter value is: %d \r\n" string 
 
 More details and code examples on the AVR128DA48 can be found at the following links:
 
-- [TB3216-Getting Started with Universal Synchronous/Asynchronours Receiver/Transmitter (USART)](https://www.microchip.com/)
-- [AVR128DA48 Product Page](https://www.microchip.com/wwwproducts/en/AVR128DA28)
+- [TB3216 - Getting Started with Universal Synchronous and Asynchronous Receiver and Transmitter (USART)](https://ww1.microchip.com/downloads/en/Appnotes/TB3216-Getting-Started-with-USART-DS90003216.pdf)
+- [AVR128DA48 Product Page](https://www.microchip.com/wwwproducts/en/AVR128DA48)
 - [AVR128DA48 Code Examples on GitHub](https://github.com/microchip-pic-avr-examples?q=avr128da48)
 - [AVR128DA48 Project Examples in START](https://start.atmel.com/#examples/AVR128DA48CuriosityNano)
 
 ## Software Used
 
-- MPLAB® X IDE 5.40 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
-- MPLAB® XC8 2.30 or a newer compiler [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
-- MPLAB® Code Configurator (MCC) 4.0.2 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-- MPLAB® Code Configurator (MCC) Device Libraries 8-bit AVR MCUs 2.5.0 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
+- MPLAB<sup>®</sup> X IDE 5.40 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
+- MPLAB<sup>®</sup> XC8 2.30 or a newer compiler [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
+- MPLAB<sup>®</sup> Code Configurator (MCC) 4.0.2 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
+- MPLAB<sup>®</sup> Code Configurator (MCC) Device Libraries 8-bit AVR MCUs 2.5.0 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
 - AVR-Dx 1.6.88 or newer Device Pack
 
 ## Hardware Used
@@ -48,7 +46,7 @@ USART1 is configured for 9600 baud, transmit enabled, 8N1.
 
 1.  Connect the board to the PC.
 
-2.  Open the Send_Formatted_Strings_Using_Printf.X project in MPLAB X.
+2.  Open the Send_Formatted_Strings_Using_Printf.X project in MPLAB<sup>®</sup> X.
 
 3.  Set the Send_Formatted_Strings_Using_Printf.X project as main project. Right click the project in the **Projects** tab and click **Set as Main Project**.
 
