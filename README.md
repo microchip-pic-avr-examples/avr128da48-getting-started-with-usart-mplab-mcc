@@ -1,6 +1,6 @@
 [![MCHP](images/microchip.png)](https://www.microchip.com)
 
-# Getting Started with Universal Synchronous/Asynchronous Receiver/Transmitter (USART) Examples (MPLAB<sup>®</sup> X)
+# Getting Started with Universal Synchronous/Asynchronous Receiver/Transmitter (USART)
 
 This repository contains examples of MCC-generated source code for Universal Synchronous/Asynchronous Receiver/Transmitter (USART) as described in [TB3216 - Getting Started with Universal Synchronous and Asynchronous Receiver and Transmitter (USART)](https://ww1.microchip.com/downloads/en/Appnotes/TB3216-Getting-Started-with-USART-DS90003216.pdf) document from Microchip. The repository contains five MPLAB<sup>®</sup> X projects inside:
 

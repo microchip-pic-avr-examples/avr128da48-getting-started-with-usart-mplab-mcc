@@ -20,7 +20,7 @@
 		],
         "dfp": {
             "name": "AVR-Dx",
-            "semverRange": "1.6.88"
+            "semverRange": "^1.6.88"
         },
         "configurator": {
             "name": "MCC",
@@ -43,7 +43,8 @@
                 "USART"
             ]
         ],
-        "peripherals": [ "USART"
+        "peripherals": [
+		"USART"
         ],
         "keywords": [ "Getting Started", "One-Wire", "Synchronous"
         ],
