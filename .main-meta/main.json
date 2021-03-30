@@ -24,7 +24,7 @@
         },
         "configurator": {
             "name": "MCC",
-            "semverRange": "4.0.1"
+            "semverRange": ">=4.0.1"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -46,7 +46,7 @@
         "peripherals": [
 		"USART"
         ],
-        "keywords": [ "Getting Started", "One-Wire", "Synchronous"
+        "keywords": [ "Getting Started","One-Wire", "Synchronous"
         ],
 		"additionalData": {
 			"longDescription": {
